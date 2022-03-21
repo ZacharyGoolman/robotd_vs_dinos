@@ -1,2 +1,2 @@
-# robotd_vs_dinos
+# robot_vs_dinos
 OOP project
