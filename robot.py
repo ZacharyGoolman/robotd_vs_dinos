@@ -1,8 +1,13 @@
-class Robot
+from weapon import Weapon
 
-    def __init__(self):
-        robot_name = None
-        health = int
-        weapon = None
 
-    
+class Robot:
+
+    def __init__(self, name, health):
+        self.robot_name = name
+        self.robot_health = health
+        
+        
+
+robot_1 = Robot("Bumblebee", 100)
+robot_1_weapon = Weapon(self

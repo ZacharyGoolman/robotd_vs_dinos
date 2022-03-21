@@ -21,4 +21,4 @@ print(dino_3.dino_name)
 print(dino_3.attack_power)
 print(dino_3.dino_health)
 
-
+# Need to create a function to have a dino attack a robot
