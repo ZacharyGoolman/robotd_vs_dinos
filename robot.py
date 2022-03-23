@@ -8,6 +8,11 @@ class Robot:
         self.robot_health = health
         self.robot_weapon = robot_weapon
 
+    def robot_attack(self,dino):
+        self.dino_health -= self.robot_weapon.attack_power
+
+
+
 #These were created to ensure that my init was functional but wont the Init will be the only thing used when importing. Can also use this as quick reference. 
 robot_weapon = Weapon("Stun Gun", 30)
 robot_1 = Robot("Brave litle Toaster", 130, robot_weapon)
