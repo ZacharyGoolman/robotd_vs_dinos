@@ -18,9 +18,9 @@ class Fleet:
         robot_weapon = Weapon("Rocket", 55)
         robot_3 = Robot("Bender", 75, robot_weapon)
       
-        self.fleet.append(robot_1)
-        self.fleet.append(robot_2)
-        self.fleet.append(robot_3)
+        self.fleet.append(Robot(robot_1))
+        self.fleet.append(Robot(robot_2))
+        self.fleet.append(Robot(robot_3))
 
 
 

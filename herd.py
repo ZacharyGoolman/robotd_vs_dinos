@@ -15,9 +15,9 @@ class Herd:
         
         dino_3 = Dinosaur("The push up King AKA Trex", 45, 100)
         
-        self.herd.append(dino_1)
-        self.herd.append(dino_2)
-        self.herd.append(dino_3)
+        self.herd.append(Dinosaur(dino_1))
+        self.herd.append(Dinosaur(dino_2))
+        self.herd.append(Dinosaur(dino_3))
         
         print(self.herd)
 
